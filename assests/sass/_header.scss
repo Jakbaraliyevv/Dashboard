@@ -1,0 +1,154 @@
+.main > div {
+  display: flex;
+}
+
+.main__left {
+  width: 30%;
+  height: auto;
+  gap: 0px;
+  opacity: 0.5px;
+  border-radius: 20px;
+  box-shadow: 30px 0 50px 0 rgba(47, 102, 255, 0.1);
+  padding: 20px 40px 0 40px;
+}
+
+.left_select {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 331px;
+  height: 97px;
+  opacity: 0px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 30px 0 50px 0 rgba(47, 102, 255, 0.1);
+  .all_box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .box {
+      width: 40px;
+      height: 40px;
+      background-color: #6461f2;
+      border-radius: 10px;
+    }
+
+    .box__text {
+      h3 {
+        font-weight: 700;
+        font-size: 20px;
+        color: #435179;
+        padding-bottom: 5px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #747c93;
+      }
+    }
+  }
+
+  .box_bor {
+    i {
+      font-size: 22px;
+      color: rgb(88, 184, 254);
+    }
+  }
+}
+
+// ikki
+
+.img__all_svg {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  border-bottom: 1px solid #757d94;
+  padding-bottom: 40px;
+  .dashboard {
+    width: 331px;
+    height: 76px;
+    background: #6461f2;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+
+  .svg_text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #435179;
+    }
+  }
+}
+
+// uchinchi
+
+.schedule {
+  width: 331px;
+  height: 291px;
+  opacity: 0.4px;
+  background: #e4e8f4;
+  //   background: rgb(236, 239, 250);
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 20px 20px 0 0;
+  h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #435179;
+  }
+
+  .today {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    p {
+      font-weight: 700;
+      font-size: 16px;
+      color: #747c93;
+    }
+    button {
+      width: 25px;
+      height: 25px;
+      background: #ffffff;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+  }
+  .all_box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    .box {
+      display: flex;
+      align-items: start;
+      gap: 15px;
+      label {
+        font-weight: 400;
+        font-size: 14px;
+        color: #435179;
+      }
+    }
+  }
+}
